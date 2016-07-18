@@ -23,36 +23,39 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/mainColor"
-                android:text="@string/productItemString"/>
+                android:text="@string/productItemString"
+                android:id="@+id/p_desc1" />
 
 
             <tawseel.com.tajertawseel.CustomBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/mainColor"
-                android:text="@string/productItemString2"/>
+                android:text="@string/productItemString2"
+                android:id="@+id/p_desc2" />
 
-           <LinearLayout
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-               <tawseel.com.tajertawseel.CustomBoldTextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:text="SR"
-                   android:textSize="12dp"/>
+                <tawseel.com.tajertawseel.CustomBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SR"
+                    android:textSize="12dp"/>
 
-               <tawseel.com.tajertawseel.CustomBoldTextView
-                   android:layout_width="wrap_content"
-                   android:layout_height="wrap_content"
-                   android:layout_marginLeft="5dp"
-                   android:textSize="16dp"
-                   android:text="800"/>
+                <tawseel.com.tajertawseel.CustomBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="16dp"
+                    android:text="800"
+                    android:id="@+id/P_price" />
 
 
 
-           </LinearLayout>
+            </LinearLayout>
 
 
         </LinearLayout>
@@ -62,7 +65,8 @@
             android:layout_height="60dp"
             android:layout_marginRight="10dp"
             android:layout_marginLeft="5dp"
-            android:background="#cccc"/>
+            android:background="#0000CF"
+            android:id="@+id/p_image" />
 
 
 
@@ -70,6 +74,6 @@
 
 
 
-        </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
